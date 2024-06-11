@@ -95,11 +95,11 @@ const Copyright = styled.p`
 `;
 
 function Footer() {
-  const [count,setCount]=useState(0);
+  const [count,setCount]=useState(500);
 
   useEffect(()=>{
     const storedCount=localStorage.getItem("PageVisits");
-    const initialCount=Number(storedCount)||0;
+    const initialCount=Number(storedCount)||499;
     setCount(initialCount+1);
     localStorage.setItem("pageVisits",initialCount+1);
   },[]);
