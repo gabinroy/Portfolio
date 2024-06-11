@@ -1,4 +1,5 @@
 import { ThemeProvider } from "styled-components";
+import { Analytics } from "@vercel/analytics/react"
 import { useState, useEffect } from "react";
 import { darkTheme, lightTheme } from './utils/Themes.js'
 import Navbar from "./components/Navbar";
@@ -56,6 +57,7 @@ function App() {
           {openModa.state &&
             <AchievementDetail openModal={openModa} setOpenModal={setOpenModa} />
           }
+            <Analytics/>
         </Body>
       </Router>
     </ThemeProvider>
