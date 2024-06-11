@@ -253,7 +253,7 @@ export const achievements = [
     image:"https://firebasestorage.googleapis.com/v0/b/gabinroy.appspot.com/o/ICA5NT.png?alt=media&token=1f27769d-80db-489e-aeb8-ddb1bb28ad58",
     tags: ["Conference",],
     // category: "web app",
-    github: "ISBN:978-81-967851-6-1",
+    github: "https://mega.nz/file/gOlGXBxY#1zKvKkZOyd3L3EUqZq6nL7593vmuDmil9YYJUMxGruA",
     webapp: "https://firebasestorage.googleapis.com/v0/b/gabinroy.appspot.com/o/BEST%20PAPER%20OF%20ICA5NT.pdf?alt=media&token=e93713cb-d26d-431d-966d-ed6c81fe1860",
   },
   {
