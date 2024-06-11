@@ -107,7 +107,7 @@ function Footer() {
     <FooterContainer>
       <FooterWrapper>
         <Logo>G Abin Roy</Logo>
-        <Count>Total Page Visits : {count} </Count>
+        <Count>Total Page Visits : {count} +</Count>
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
