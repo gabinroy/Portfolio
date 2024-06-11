@@ -1,3 +1,4 @@
+import React,{useState,useEffect} from "react";
 import styled from 'styled-components';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import { SiForgejo } from "react-icons/si"; //disroot git or forgejo git logo import
@@ -32,6 +33,12 @@ const Logo = styled.h1`
   font-weight: 600;
   font-size: 20px;
   color: ${({ theme }) => theme.primary};
+`;
+
+const Count = styled.h2`
+  font-weight: 400;
+  font-size: 20px;
+  // color: ${({ theme }) => theme.primary};
 `;
 
 const Nav = styled.nav`
@@ -88,16 +95,26 @@ const Copyright = styled.p`
 `;
 
 function Footer() {
+  const [count,setCount]=useState(0);
+
+  useEffect(()=>{
+    const storedCount=localStorage.getItem("PageVisits");
+    const initialCount=Number(storedCount)||0;
+    setCount(initialCount+1);
+    localStorage.setItem("pageVisits",initialCount+1);
+  },[]);
   return (
     <FooterContainer>
       <FooterWrapper>
         <Logo>G Abin Roy</Logo>
+        <Count>Total Page Visits : {count} </Count>
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
           <NavLink href="#experience">Experience</NavLink>
           <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#education">Education</NavLink>
+          <NavLink href="#achievements">Achievements</NavLink>
         </Nav>
         <SocialMediaIcons>
           {/* <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon> */}
