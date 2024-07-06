@@ -265,7 +265,7 @@ export const achievements = [
     image:"https://firebasestorage.googleapis.com/v0/b/gabinroy.appspot.com/o/ICTEST.png?alt=media&token=e82c7d4e-904c-4cf6-ba18-42911f6468e8",
     tags: ["Conference","IEEE Xplore",],
     // category: "web app",
-    github: "https://doi.org/",
+    github: "https://doi.org/10.1109/ICTEST60614.2024.10576146",
     webapp: "https://firebasestorage.googleapis.com/v0/b/gabinroy.appspot.com/o/Authors%20Certfcate_ICTEST.pdf?alt=media&token=28e7f39e-1764-4dd3-a687-7d895419fcff",
   },
 ];
