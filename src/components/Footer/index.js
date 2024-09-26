@@ -1,7 +1,7 @@
 import React from "react";
 import styled from 'styled-components';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import { SiForgejo } from "react-icons/si"; //disroot git or forgejo git logo import
+import { SiForgejo, SiOrcid, SiIeee, SiScopus } from "react-icons/si"; //disroot git or forgejo git logo import
 // import FacebookIcon from '@mui/icons-material/Facebook';
 // import TwitterIcon from '@mui/icons-material/Twitter';
 import { BsTwitterX } from "react-icons/bs";
@@ -106,6 +106,9 @@ function Footer() {
           <SocialMediaIcon href={Bio.twitter} target="display"><BsTwitterX /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
           <SocialMediaIcon href={"https://github.com/Godwin-Abin"} target="display"><GitHubIcon /></SocialMediaIcon>
+          <SocialMediaIcon href={"https://orcid.org/0009-0008-5869-2915"} target="display"><SiOrcid /></SocialMediaIcon>
+          <SocialMediaIcon href={"https://ieeexplore.ieee.org/author/460316178125202"} target="display"><SiIeee /></SocialMediaIcon>
+          <SocialMediaIcon href={"https://www.scopus.com/authid/detail.uri?authorId=59216245200"} target="display"><SiScopus /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
           &copy; 2024 G Abin Roy. All rights reserved.
