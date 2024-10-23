@@ -3,8 +3,9 @@ export const Bio = {
   roles: [
     "Full Stack Developer",
     "Android Developer",
-    "UI/UX Designer",
+    "IOS Developer",
     "Programmer",
+    "Software Tester",
   ],
   description:
     "I'm a driven, adaptable person that is constantly ready to take upon new tasks. I have a strong desire to learn and dedicate myself to doing excellent work. I'm ready to make a significant contribution and accomplish great things because I have an eye towards improvement and an optimistic outlook.",
@@ -183,48 +184,48 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "CurioNative",
-    date: "Oct 2023 - Present",
+    title: "Portfolio V1 ",
+    date: "June 2023",
     description:
-      "Resolute persons gather for a Revolution.",
+      "My First Personal Portfolio using HTML , CSS & JS",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/gabinroy.appspot.com/o/Screenshot%202024-01-04%20104844.png?alt=media&token=f2e5d21c-bb3b-4da5-af93-64273e585add",
-    tags: ["React Js", "Bash", "Three.js", "Python", "C#","Django","unity",],
+      "https://gabinroy-v1.web.app/assets/images/projects/portfolio.png",
+    tags: ["HTML", "CSS", "JS", "Firebase",],
     category: "web app",
-    // github: "https://github.com/rishavchanda/Podstream",
-    webapp: "https://curionative.org/",
-    member: [
-      {
-        name: "G Abin Roy",
-        img: "https://firebasestorage.googleapis.com/v0/b/gabinroy.appspot.com/o/Profile.jpg?alt=media&token=ef824c6d-5f26-4006-b60b-9a9f8e6799fa",
-        portfolio: "https://gabinroy.curionative.org/",
-        github: "https://git.disroot.org/gabinroy",
-      },
-      {
-        name: "Kevin John",
-        img: "https://firebasestorage.googleapis.com/v0/b/gabinroy.appspot.com/o/kevin.jpeg?alt=media&token=78ae4030-15bf-4943-9779-3cb6e8c68666",
-        portfolio: "https://kevinjohn.curionative.org/",
-        github: "https://git.disroot.org/Kevinjohn622",
-      },
-      {
-        name: "Pranav Jerry",
-        img: "https://firebasestorage.googleapis.com/v0/b/gabinroy.appspot.com/o/pranav.jpeg?alt=media&token=5e47668e-96f2-4b1f-be6f-2de9c7fec681",
-        portfolio: "https://pranav.curionative.org/",
-        github: "https://git.disroot.org/pranav",
-      },
-      {
-        name: "Vaishnav A Nair",
-        img: "https://firebasestorage.googleapis.com/v0/b/gabinroy.appspot.com/o/vaishnav.jpg?alt=media&token=bfd85a5d-f99d-4323-9f81-967c57a2fb45",
-        portfolio: "https://vaishnavanair.curionative.org/",
-        github: "https://git.disroot.org/igr1zera",
-      },
-      {
-        name: "Ajesh R",
-        img: "https://firebasestorage.googleapis.com/v0/b/gabinroy.appspot.com/o/ajessh.jpeg?alt=media&token=26846a17-3374-449d-be45-b4a29134e17e",
-        portfolio: "https://ajeshr.curionative.org/",
-        github: "https://git.disroot.org/Ajax",
-      },
-    ],
+    github: "https://github.com/Godwin-Abin/Portfolio-v1",
+    webapp: "https://gabinroy-v1.web.app/",
+    // member: [
+    //   {
+    //     name: "G Abin Roy",
+    //     img: "https://firebasestorage.googleapis.com/v0/b/gabinroy.appspot.com/o/Profile.jpg?alt=media&token=ef824c6d-5f26-4006-b60b-9a9f8e6799fa",
+    //     portfolio: "https://gabinroy.curionative.org/",
+    //     github: "https://git.disroot.org/gabinroy",
+    //   },
+    //   {
+    //     name: "Kevin John",
+    //     img: "https://firebasestorage.googleapis.com/v0/b/gabinroy.appspot.com/o/kevin.jpeg?alt=media&token=78ae4030-15bf-4943-9779-3cb6e8c68666",
+    //     portfolio: "https://kevinjohn.curionative.org/",
+    //     github: "https://git.disroot.org/Kevinjohn622",
+    //   },
+    //   {
+    //     name: "Pranav Jerry",
+    //     img: "https://firebasestorage.googleapis.com/v0/b/gabinroy.appspot.com/o/pranav.jpeg?alt=media&token=5e47668e-96f2-4b1f-be6f-2de9c7fec681",
+    //     portfolio: "https://pranav.curionative.org/",
+    //     github: "https://git.disroot.org/pranav",
+    //   },
+    //   {
+    //     name: "Vaishnav A Nair",
+    //     img: "https://firebasestorage.googleapis.com/v0/b/gabinroy.appspot.com/o/vaishnav.jpg?alt=media&token=bfd85a5d-f99d-4323-9f81-967c57a2fb45",
+    //     portfolio: "https://vaishnavanair.curionative.org/",
+    //     github: "https://git.disroot.org/igr1zera",
+    //   },
+    //   {
+    //     name: "Ajesh R",
+    //     img: "https://firebasestorage.googleapis.com/v0/b/gabinroy.appspot.com/o/ajessh.jpeg?alt=media&token=26846a17-3374-449d-be45-b4a29134e17e",
+    //     portfolio: "https://ajeshr.curionative.org/",
+    //     github: "https://git.disroot.org/Ajax",
+    //   },
+    // ],
   },
   {
     id: 1,
