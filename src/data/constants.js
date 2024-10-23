@@ -239,7 +239,7 @@ export const projects = [
       "React Js",
     ],
     category: "web app",
-    // github: "https://git.disroot.org/gabinroy/Portfolio",
+    github: "https://github.com/Godwin-Abin/Portfolio",
     webapp: "#",
   },
 ];
