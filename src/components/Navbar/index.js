@@ -77,7 +77,7 @@ const Navbar = () => {
             {/* <MobileLink href='#contact' onClick={() => {
               setIsOpen(!isOpen);
             }}>Contact</MobileLink>   */}
-            <GitHubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={"https://github.com/Godwin-Abin"} target="_blank"><FaGithub /></GitHubButton>
+            <GitHubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href = {"https://github.com/Godwin-Abin"} target="_blank"><FaGithub /></GitHubButton>
             {/* <GitHubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} onClick={() => setIsPlaying(!isPlaying)}>{isPlaying ? <IoVolumeMuteSharp /> : <IoVolumeHighSharp />}</GitHubButton> */}
           </MobileMenu>
         }
