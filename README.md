@@ -71,7 +71,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-Background score credit : Art of silence by [uniq](https://soundcloud.com/uniqofficial) .
-Music provided by [Plug N Play Music](https://www.plugnplaymusic.net)
+<!-- Background score credit : Art of silence by [uniq](https://soundcloud.com/uniqofficial) .
+Music provided by [Plug N Play Music](https://www.plugnplaymusic.net) -->
 
 created with ❤️ G Abin Roy
