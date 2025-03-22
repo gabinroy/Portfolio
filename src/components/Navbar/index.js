@@ -29,7 +29,7 @@ const Navbar = () => {
       <NavbarContainer>
         <NavLogo to='/'>
           <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
-            <img src="https://firebasestorage.googleapis.com/v0/b/gabinroy.appspot.com/o/favicon1.png?alt=media&token=1aa0b12b-b238-4ea4-9c7f-03bc23e07a21" width="25px" height="25px" alt='Angular Logo'></img> <Span>Portfolio</Span>
+            <img src={Bio.logo} width="25px" height="25px" alt='Angular Logo'></img> <Span>Portfolio</Span>
           </a>
         </NavLogo>
         <MobileIcon>
@@ -47,7 +47,7 @@ const Navbar = () => {
           {/* <NavLink href='#contact'>Contact</NavLink> */}
         </NavItems>
         <ButtonContainer>
-          <GitHubButton href={"https://github.com/Godwin-Abin"} target="_blank"><FaGithub /></GitHubButton>
+          <GitHubButton href={Bio.github} target="_blank"><FaGithub /></GitHubButton>
         &nbsp;&nbsp;
           {/* <GitHubButton onClick={() => setIsPlaying(!isPlaying)}>{isPlaying ? <IoVolumeHighSharp /> : <IoVolumeMuteSharp />}</GitHubButton> */}
         </ButtonContainer>
@@ -77,7 +77,7 @@ const Navbar = () => {
             {/* <MobileLink href='#contact' onClick={() => {
               setIsOpen(!isOpen);
             }}>Contact</MobileLink>   */}
-            <GitHubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href = {"https://github.com/Godwin-Abin"} target="_blank"><FaGithub /></GitHubButton>
+            <GitHubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href = {Bio.github} target="_blank"><FaGithub /></GitHubButton>
             {/* <GitHubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} onClick={() => setIsPlaying(!isPlaying)}>{isPlaying ? <IoVolumeMuteSharp /> : <IoVolumeHighSharp />}</GitHubButton> */}
           </MobileMenu>
         }

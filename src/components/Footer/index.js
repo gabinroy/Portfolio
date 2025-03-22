@@ -7,7 +7,8 @@ import { SiForgejo, SiOrcid, SiIeee, SiScopus } from "react-icons/si"; //disroot
 import { BsTwitterX } from "react-icons/bs";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 // import InstagramIcon from '@mui/icons-material/Instagram';
-import { Bio } from '../../data/constants';
+import { Bio, footer } from '../../data/constants';
+import { height } from "@fortawesome/free-solid-svg-icons/fa0";
 
 const FooterContainer = styled.div`
   width: 100%;
@@ -71,7 +72,7 @@ const SocialMediaIcons = styled.div`
 
 const SocialMediaIcon = styled.a`
   display: inline-block;
-  margin: 0 1rem;
+  margin: 0 0.89rem;
   font-size: 1.5rem;
   color: ${({ theme }) => theme.text_primary};
   transition: color 0.2s ease-in-out;
@@ -102,13 +103,14 @@ function Footer() {
         </Nav>
         <SocialMediaIcons>
           {/* <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon> */}
-          <SocialMediaIcon href={Bio.github} target="display"><SiForgejo /></SocialMediaIcon>
+          <SocialMediaIcon href={Bio.git} target="display"><SiForgejo /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.twitter} target="display"><BsTwitterX /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={"https://github.com/Godwin-Abin"} target="display"><GitHubIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={"https://orcid.org/0009-0008-5869-2915"} target="display"><SiOrcid /></SocialMediaIcon>
-          <SocialMediaIcon href={"https://ieeexplore.ieee.org/author/460316178125202"} target="display"><SiIeee /></SocialMediaIcon>
-          <SocialMediaIcon href={"https://www.scopus.com/authid/detail.uri?authorId=59216245200"} target="display"><SiScopus /></SocialMediaIcon>
+          <SocialMediaIcon href={Bio.github} target="display"><GitHubIcon /></SocialMediaIcon>
+          <SocialMediaIcon href={Bio.orcid} target="display"><SiOrcid /></SocialMediaIcon>
+          <SocialMediaIcon href={Bio.ieee} target="display"><SiIeee /></SocialMediaIcon>
+          <SocialMediaIcon href={Bio.scopus} target="display"><SiScopus /></SocialMediaIcon>
+          <SocialMediaIcon href={Bio.gdev} target="display"><img src={footer.gdev_ico} alt="dev" style={{ height: 30, width: 30 }}/></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
           &copy; 2024 G Abin Roy. All rights reserved.
