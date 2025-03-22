@@ -89,6 +89,8 @@ const Copyright = styled.p`
 `;
 
 function Footer() {
+  const currentYear = new Date().getFullYear();
+
   return (
     <FooterContainer>
       <FooterWrapper>
@@ -113,7 +115,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.gdev} target="display"><img src={footer.gdev_ico} alt="dev" style={{ height: 30, width: 30 }}/></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2024 G Abin Roy. All rights reserved.
+          &copy; 2024 - {currentYear} G Abin Roy. All rights reserved.
         </Copyright>
       </FooterWrapper>
     </FooterContainer>
