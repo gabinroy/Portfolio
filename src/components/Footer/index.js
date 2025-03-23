@@ -8,7 +8,7 @@ import { BsTwitterX } from "react-icons/bs";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 // import InstagramIcon from '@mui/icons-material/Instagram';
 import { Bio, footer } from '../../data/constants';
-import { height } from "@fortawesome/free-solid-svg-icons/fa0";
+// import { height } from "@fortawesome/free-solid-svg-icons/fa0";
 
 const FooterContainer = styled.div`
   width: 100%;
@@ -72,7 +72,7 @@ const SocialMediaIcons = styled.div`
 
 const SocialMediaIcon = styled.a`
   display: inline-block;
-  margin: 0 0.89rem;
+  margin: 0 0.78rem;
   font-size: 1.5rem;
   color: ${({ theme }) => theme.text_primary};
   transition: color 0.2s ease-in-out;
