@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Live Demo : [gabinroy.com](https://gabinroy.curionative.org)
+Live Demo : [gabinroy.com](https://gabinroy.web.app)
 
 ## Available Scripts
 
@@ -75,3 +75,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 Music provided by [Plug N Play Music](https://www.plugnplaymusic.net) -->
 
 created with ❤️ G Abin Roy
+
