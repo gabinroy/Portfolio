@@ -16,7 +16,7 @@ export const Bio = {
   scopus: "https://www.scopus.com/authid/detail.uri?authorId=59216245200",
   gdev: "https://g.dev/gabinroy",
   resume:
-    "https://firebasestorage.googleapis.com/v0/b/gabinroy.appspot.com/o/G's%20Resume.pdf?alt=media&token=204db3f2-98a2-4e79-98a9-91cf63c3660e",
+    "https://firebasestorage.googleapis.com/v0/b/gabinroy.appspot.com/o/G%20Abin%20Roy's%20Resume.pdf?alt=media&token=9dce7dc7-fcbb-4608-9d03-39b4f3df1962",
   linkedin: "https://www.linkedin.com/in/gabinroy",
   twitter: "https://twitter.com/Godwin_Abin",
   aud1: "https://firebasestorage.googleapis.com/v0/b/gabinroy.appspot.com/o/Art%20of%20silence%20by%20uniq%20(without%20Synth%20).mp3?alt=media&token=15fc54e8-5655-4428-ab15-2cfff9161cd2",
@@ -285,4 +285,5 @@ export const TimeLineData = [
   { year: 2020, text: "Started my journey" },
   { year: 2023, text: "Started to work on our Open Source project" },
 ];
+
 
