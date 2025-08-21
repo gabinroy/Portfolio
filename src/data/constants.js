@@ -10,14 +10,14 @@ export const Bio = {
   description:
     "I'm a driven, adaptable person that is constantly ready to take upon new tasks. I have a strong desire to learn and dedicate myself to doing excellent work. I'm ready to make a significant contribution and accomplish great things because I have an eye towards improvement and an optimistic outlook.",
   git: "https://git.disroot.org/gabinroy",
-  github: "https://github.com/Godwin-Abin",
+  github: "https://github.com/gabinroy",
   orcid: "https://orcid.org/0009-0008-5869-2915",
   ieee: "https://ieeexplore.ieee.org/author/460316178125202",
   scopus: "https://www.scopus.com/authid/detail.uri?authorId=59216245200",
   gdev: "https://g.dev/gabinroy",
   resume:
     "https://firebasestorage.googleapis.com/v0/b/gabinroy.appspot.com/o/G's%20Resume.pdf?alt=media&token=204db3f2-98a2-4e79-98a9-91cf63c3660e",
-  linkedin: "https://www.linkedin.com/in/g-abin-roy-6b1202226/",
+  linkedin: "https://www.linkedin.com/in/gabinroy",
   twitter: "https://twitter.com/Godwin_Abin",
   aud1: "https://firebasestorage.googleapis.com/v0/b/gabinroy.appspot.com/o/Art%20of%20silence%20by%20uniq%20(without%20Synth%20).mp3?alt=media&token=15fc54e8-5655-4428-ab15-2cfff9161cd2",
   aud2: "https://firebasestorage.googleapis.com/v0/b/gabinroy.appspot.com/o/Dark%20Piano%20Trap.mp3?alt=media&token=c41ce7ee-bc66-4bc1-a588-39861f1639ee",
@@ -198,7 +198,7 @@ export const projects = [
       "https://gabinroy-v1.web.app/assets/images/projects/portfolio.png",
     tags: ["HTML", "CSS", "JS", "Firebase",],
     category: "web app",
-    github: "https://github.com/Godwin-Abin/Portfolio-v1",
+    github: "https://github.com/gabinroy/Portfolio-v1",
     webapp: "https://gabinroy-v1.web.app/",
     // member: [
     //   {
@@ -245,7 +245,7 @@ export const projects = [
       "React Js",
     ],
     category: "web app",
-    github: "https://github.com/Godwin-Abin/Portfolio",
+    github: "https://github.com/gabinroy/Portfolio",
     webapp: "#",
   },
 ];
@@ -285,3 +285,4 @@ export const TimeLineData = [
   { year: 2020, text: "Started my journey" },
   { year: 2023, text: "Started to work on our Open Source project" },
 ];
+
